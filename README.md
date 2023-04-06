@@ -1,4 +1,4 @@
-WORKSHOP_TITLE
+Package Development Masterclass
 ================
 
 ### posit::conf 2023
