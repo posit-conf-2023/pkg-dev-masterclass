@@ -1,0 +1,34 @@
+2022: <https://github.com/rstudio-conf-2022/pkg-dev-masterclass>
+
+Hadley + Jenny + Gabor + Davis.
+
+Main changes:
+
+-   only 1 day
+-   reduce free time
+-   reduce CRAN/GitHub
+
+Proposed agenda:
+
+1.  Test tooling & design:
+    -   running tests (you should be using `R CMD check`!)
+    -   testthat 3e
+    -   parallel (i.e. it exists and you should use it) + `TESTTHAT_CPUS` env var
+    -   eliminate top level code: helpers, setup.R, etc
+    -   localise changes: fixtures/set_state_inspector()
+    -   mocking
+2.  cli errors + snapshot testing
+3.  [https://design.tidyverse.org](https://design.tidyverse.org?) through the lens of testing
+    1.  Code that is hard to test is often hard to use/understand/document
+    2.  Code coverage
+    3.  Extracting out code just for testing
+4.  Your package + office hours:
+    1.  `R CMD check`
+
+    2.  `usethis::use_testthat(3)`
+
+    3.  Align the names of `R/` and `test/` files
+
+    4.  Refactor your tests (top-level and duplicated code)
+
+    5.  Build and preview a pkgdown site locally
