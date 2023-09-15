@@ -33,11 +33,11 @@ We'll have more details at <https://github.com/posit-conf-2023/pkg-dev-mastercla
 
 | Time          | Activity                  |
 |:--------------|:--------------------------|
-| 09:00 - 10:30 | Test tooling and design   |
+| 09:00 - 10:30 | API design                |
 | 10:30 - 11:00 | *Coffee break*            |
 | 11:00 - 12:30 | Errors and snapshot tests |
 | 12:30 - 13:30 | *Lunch break*             |
-| 13:30 - 15:00 | API design                |
+| 13:30 - 15:00 | Advanced testing          |
 | 15:00 - 15:30 | *Coffee break*            |
 | 15:30 - 17:00 | Your turn                 |
 
